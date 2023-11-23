@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linda\\source\\repos\\SprayPaint\\SprayPaint\\SprayPaint.csproj": {}
+    "C:\\Users\\linda\\Documents\\GitHub\\.NET-Technical-Assignment\\SprayPaint\\SprayPaint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linda\\source\\repos\\SprayPaint\\SprayPaint\\SprayPaint.csproj": {
+    "C:\\Users\\linda\\Documents\\GitHub\\.NET-Technical-Assignment\\SprayPaint\\SprayPaint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linda\\source\\repos\\SprayPaint\\SprayPaint\\SprayPaint.csproj",
+        "projectUniqueName": "C:\\Users\\linda\\Documents\\GitHub\\.NET-Technical-Assignment\\SprayPaint\\SprayPaint.csproj",
         "projectName": "SprayPaint",
-        "projectPath": "C:\\Users\\linda\\source\\repos\\SprayPaint\\SprayPaint\\SprayPaint.csproj",
+        "projectPath": "C:\\Users\\linda\\Documents\\GitHub\\.NET-Technical-Assignment\\SprayPaint\\SprayPaint.csproj",
         "packagesPath": "C:\\Users\\linda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linda\\source\\repos\\SprayPaint\\SprayPaint\\obj\\",
+        "outputPath": "C:\\Users\\linda\\Documents\\GitHub\\.NET-Technical-Assignment\\SprayPaint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

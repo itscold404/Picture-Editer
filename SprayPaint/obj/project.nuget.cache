@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6bN3M+ul7+yW2LetmufDBWsnvOEsWL++sSEnv3pNJF4IGrQB+aIOCBf7bemzEIjPqXpqzYf7DPGtmDrJ5YUPdw==",
+  "dgSpecHash": "pPMM4gd4mNHVhMmSXgs8YJLP/FzPGf8ORu+Y0/HI/AmDI1o7cbZzquj0juzRfr5GClk3tCKpTesMN6jaEMzZlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\linda\\source\\repos\\SprayPaint\\SprayPaint\\SprayPaint.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\linda\\Documents\\GitHub\\.NET-Technical-Assignment\\SprayPaint\\SprayPaint.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\linda\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+  ],
   "logs": []
 }
