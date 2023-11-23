@@ -18,10 +18,10 @@
             <ColumnDefinition Width=".2*"/>
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="0" Click="btnFire_Click" Content="Import Image" Margin="25,18,531,18"/>
-        <TextBlock Grid.Row="1" Name="info"/>
+        <Button Grid.Row="0" Command="{Binding LoadImageCommand}" Content="Import Image" Margin="25,18,531,18"/>
 
-        <Image Grid.Row="1" Grid.Column="0" Name="Image"/>
+        <InkCanvas Grid.Row="1" Grid.Column="0" DefaultDrawingAttributes="{Binding PenAttributes}"/>
+        <Image Grid.Row="1" Grid.Column="0" Source="{Binding ImageSource}"/>
 
         <userControls:PenSettings Grid.Row="1" Grid.Column="1"/>
     </Grid>

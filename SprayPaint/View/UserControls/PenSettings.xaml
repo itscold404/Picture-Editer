@@ -13,16 +13,17 @@
             <RowDefinition Height=".3*"/>
         </Grid.RowDefinitions>
 
-        <RadioButton Content="Spray Paint" HorizontalAlignment="Left" Margin="34,36,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="Pen" HorizontalAlignment="Left" Margin="34,67,0,0" VerticalAlignment="Top"/>
-        
-        <Slider HorizontalAlignment="Left" Margin="34,100,0,0" 
+        <RadioButton Content="Spray Paint" HorizontalAlignment="Left" Margin="35,19,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Pen" HorizontalAlignment="Left" Margin="36,54,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Eraser" HorizontalAlignment="Left" Margin="36,87,0,0" VerticalAlignment="Top"/>
+
+        <Slider HorizontalAlignment="Left" Margin="34,122,0,0" 
          VerticalAlignment="Top" Width="120" Name="ThicknessSlider"/>
 
-        <Slider HorizontalAlignment="Left" Margin="34,160,0,0" 
+        <Slider HorizontalAlignment="Left" Margin="34,171,0,0" 
          VerticalAlignment="Top" Width="120" Name="OpacitySlider"/>
 
-        <TextBox HorizontalAlignment="Left" Margin="34,200,0,0" Grid.Row="0" 
+        <TextBox HorizontalAlignment="Left" Margin="36,220,0,0" Grid.Row="0" 
           TextWrapping="Wrap" Text="Colors" VerticalAlignment="Top" Width="120"/>
 
 
