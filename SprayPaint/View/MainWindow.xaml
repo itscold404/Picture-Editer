@@ -15,13 +15,12 @@
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width=".8*"/>
-            <ColumnDefinition Width=".2*"/>
+            <ColumnDefinition Width=".3*"/>
         </Grid.ColumnDefinitions>
-
         <Button Grid.Row="0" Command="{Binding LoadImageCommand}" Content="Import Image" Margin="25,18,531,18"/>
 
-        <InkCanvas Grid.Row="1" Grid.Column="0" DefaultDrawingAttributes="{Binding PenAttributes}"/>
-        <Image Grid.Row="1" Grid.Column="0" Source="{Binding ImageSource}"/>
+        <InkCanvas Grid.Row="1" Grid.Column="0" DefaultDrawingAttributes="{Binding PenAttributes}" 
+                   Background="{Binding CanvasBackground}" EditingMode="{Binding EditMode}"/>
 
         <userControls:PenSettings Grid.Row="1" Grid.Column="1"/>
     </Grid>

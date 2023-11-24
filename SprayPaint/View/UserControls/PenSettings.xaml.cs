@@ -15,10 +15,5 @@ namespace SprayPaint.View.UserControls
         {
             InitializeComponent();
         }
-
-        private void ColorGrid_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
