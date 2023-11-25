@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SprayPaint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1501f4d16b1ee25b9a5c38c0796cd61ee666873")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31e66a14297568aa95249512907ed576a4d79519")]
 [assembly: System.Reflection.AssemblyProductAttribute("SprayPaint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SprayPaint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

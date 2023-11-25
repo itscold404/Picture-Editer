@@ -16,6 +16,10 @@ namespace SprayPaint
             DataContext = vm;
         }
 
+        /// <summary>
+        /// Spray paints the position where the mouse is when the left 
+        /// mouse button is pressed
+        /// </summary>
         private void InkCanvas_MouseMove(object sender, MouseEventArgs e)
         {
             if(e.LeftButton == MouseButtonState.Pressed)

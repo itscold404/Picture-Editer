@@ -32,10 +32,10 @@
         <!-- Thickness and Opacity Sliders -->
         <StackPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center" Margin="10,20,10,10">
             <Label Content="Thickness" HorizontalAlignment="Center" Margin="0,0,0,5" Width="169"/>
-            <TextBox Text="{Binding ThickValueString}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+            <TextBox Text="{Binding ThickValue}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
             <Slider Maximum="50" Value="{Binding ThickValue, Mode=TwoWay}"/>
             <Label Content="Spray Paint Opacity"/>
-            <TextBox Text="{Binding OpacityValueString}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+            <TextBox Text="{Binding OpacityValue}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
             <Slider Maximum="100" Value="{Binding OpacityValue, Mode=TwoWay}"/>
         </StackPanel>
 

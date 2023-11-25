@@ -17,5 +17,26 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        
+        <!-- Filling color grid with color options -->
+        <Button Background ="Black" Grid.Row ="0" Grid.Column="0" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
+        <Button Background ="Gray" Grid.Row ="0" Grid.Column="1" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
+        <Button Background ="White" Grid.Row ="0" Grid.Column="2" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
+        <Button Background ="Blue" Grid.Row ="1" Grid.Column="0" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
+        <Button Background ="LightGreen" Grid.Row ="1" Grid.Column="1" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
+        <Button Background ="Purple" Grid.Row ="1" Grid.Column="2" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
+        <Button Background ="Red" Grid.Row ="2" Grid.Column="0" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
+        <Button Background ="Orange" Grid.Row ="2" Grid.Column="1" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
+        <Button Background ="Yellow" Grid.Row ="2" Grid.Column="2" Command="{Binding SelectColorCommand}"
+                CommandParameter="{Binding Background, RelativeSource={RelativeSource Self}}"/>
     </Grid>
+
 </UserControl>

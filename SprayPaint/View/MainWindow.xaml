@@ -17,14 +17,20 @@
             <ColumnDefinition Width=".8*"/>
             <ColumnDefinition Width=".3*"/>
         </Grid.ColumnDefinitions>
-        <Button Grid.Row="0" Command="{Binding LoadImageCommand}" Content="Import Image" Margin="25,18,472,18"/>
 
-        <Button Grid.Row="0" Command="{Binding}" Content="Save Image" Margin="156,18,341,18"/>
-        
+        <!-- Load and Save Image buttons -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button Grid.Row="0" Command="{Binding LoadImageCommand}" Content="Import Image" Margin="10,10,10,10"/>
+
+            <Button Grid.Row="0" Command="{Binding SaveImageCommand}" Content="Save Image" Margin="10,10,10,10"/>
+        </StackPanel>
+    
+        <!-- Where uploaded image and drawing will be -->
         <InkCanvas Grid.Row="1" Grid.Column="0" DefaultDrawingAttributes="{Binding PenAttributes}" 
                    Background="{Binding CanvasBackground}" EditingMode="{Binding EditMode}" MouseMove="InkCanvas_MouseMove"
                    Strokes="{Binding Strokes}"/>
 
+        <!-- Side tool bar -->
         <userControls:PenSettings Grid.Row="1" Grid.Column="1"/>
     </Grid>
 </Window>
