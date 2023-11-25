@@ -1,6 +1,6 @@
-﻿using Microsoft.Win32;
-using System.Windows;
-using System.Windows.Media.Imaging;
+﻿using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace SprayPaint
 {
@@ -12,27 +12,17 @@ namespace SprayPaint
         public MainWindow()
         {
             InitializeComponent();
+            MainViewModel vm = new MainViewModel();
+            DataContext = vm;
         }
-        private void btnFire_Click(object sender, RoutedEventArgs e)
+
+        private void InkCanvas_MouseMove(object sender, MouseEventArgs e)
         {
-            OpenFileDialog fileDialog = new OpenFileDialog();
-            fileDialog.Title = "Select an Image File";
-            fileDialog.Filter = "Image Files|*.png; *.bmp; *.jpeg; *.jpeg; *.tiff; *.tiff; *.gif; *.ico";
-            
-            bool? success = fileDialog.ShowDialog();
-
-            if(success == true)
+            if(e.LeftButton == MouseButtonState.Pressed)
             {
-                string f_path = fileDialog.FileName;
-                info.Text = f_path;
-                BitmapImage myBitmapImage = new BitmapImage();
-
-                myBitmapImage.BeginInit();
-                myBitmapImage.UriSource = new Uri(f_path);
-                myBitmapImage.DecodePixelWidth = 200;
-                myBitmapImage.EndInit();
-
-                Image.Source = myBitmapImage;
+                var vm = DataContext as MainViewModel;
+                var pos = e.GetPosition(sender as InkCanvas);
+                vm?.CreateSprayCommand.Execute((pos.X, pos.Y));
             }
         }
     }
