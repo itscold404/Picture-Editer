@@ -16,11 +16,6 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox HorizontalAlignment="Left" Margin="19,27,0,0" Grid.Column="2"
-  TextWrapping="Wrap" Text="Colors" VerticalAlignment="Top" Width="120" Name="colorSelected" Grid.ColumnSpan="2" Height="163" Grid.RowSpan="3"/>
     </Grid>
 </UserControl>
