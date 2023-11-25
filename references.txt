@@ -1,0 +1,40 @@
+WPF Tutorial: 
+https://youtube.com/playlist?list=PLih2KERbY1HHOOJ2C6FOrVXIwg4AZ-hk1&si=Dj_ierGF7BRR8Geb
+
+C# coding convention: 
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
+MVVM: 
+https://www.youtube.com/watch?v=AXpTeiWtbC8
+https://www.youtube.com/watch?v=Pso1MeX_HvI&t=0s
+https://learn.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm
+https://www.youtube.com/watch?v=sAn4RVsroF4
+
+.gitignore file:
+https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+Documentation:
+https://learn.microsoft.com/en-us/dotnet/api/system.windows.controls?view=windowsdesktop-8.0
+https://learn.microsoft.com/en-us/dotnet/desktop/wpf/graphics-multimedia/how-to-use-a-bitmapimage?view=netframeworkdesktop-4.8
+
+
+Painting:
+https://www.youtube.com/watch?v=0LEkcmD3w9w
+
+Getting Image to be the background
+https://stackoverflow.com/questions/52489444/wpf-inkcanvas-background-image
+
+Sliders:
+https://wpf-tutorial.com/misc-controls/the-slider-control/
+
+Spray:
+https://learn.microsoft.com/en-us/dotnet/api/system.windows.input.mouseeventhandler?view=windowsdesktop-8.0
+https://learn.microsoft.com/en-us/dotnet/api/system.windows.controls.inkcanvas.strokes?view=windowsdesktop-8.0
+https://learn.microsoft.com/en-us/dotnet/api/system.windows.ink.strokecollection?view=windowsdesktop-8.0
+
+Opacity and Thickness invalid input handing:
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number
+
+save Image:
+https://www.youtube.com/watch?v=4gNK0Au4OIM
+https://www.codeproject.com/Questions/724901/WPF-Save-Image-plus-InkCanvas
