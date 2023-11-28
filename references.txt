@@ -1,9 +1,6 @@
 WPF Tutorial: 
 https://youtube.com/playlist?list=PLih2KERbY1HHOOJ2C6FOrVXIwg4AZ-hk1&si=Dj_ierGF7BRR8Geb
 
-C# coding convention: 
-https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
-
 MVVM: 
 https://www.youtube.com/watch?v=AXpTeiWtbC8
 https://www.youtube.com/watch?v=Pso1MeX_HvI&t=0s
